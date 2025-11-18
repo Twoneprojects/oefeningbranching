@@ -5,9 +5,74 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
-<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mijn Website</a>
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Over</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+<div class="container my-5">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">Welkom op mijn website</h1>
+        <p class="lead">Dit is een voorbeeld body gemaakt met Bootstrap componenten.</p>
+        <a href="#" class="btn btn-primary btn-lg">Meer informatie</a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Sectie 1</h5>
+                    <p class="card-text">Hier staat tekst over sectie 1. Je kunt dit aanpassen naar wens.</p>
+                    <a href="#" class="btn btn-outline-primary">Lees meer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Sectie 2</h5>
+                    <p class="card-text">Inhoud voor sectie 2. Voeg afbeeldingen of iconen toe indien nodig.</p>
+                    <a href="#" class="btn btn-outline-primary">Lees meer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Sectie 3</h5>
+                    <p class="card-text">Extra informatie die hier kan staan voor je website.</p>
+                    <a href="#" class="btn btn-outline-primary">Lees meer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
